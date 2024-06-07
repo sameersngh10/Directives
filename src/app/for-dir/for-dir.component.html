@@ -1,0 +1,19 @@
+<div *ngFor="let object of objects; index as i">
+  <h2>{{ i }} {{ object }}</h2>
+</div>
+<hr />
+<div *ngFor="let object of objects; odd as o">
+  <h3>{{ o }} {{ object }}</h3>
+</div>
+<hr />
+<div *ngFor="let even of objects; even as e">
+  <h3>{{ e }} {{ even }}</h3>
+</div>
+<hr />
+<div *ngFor="let first of objects; first as f">
+  <h3>{{ f }} {{ first }}</h3>
+</div>
+<hr />
+<div *ngFor="let last of objects; last as l">
+  <h3>{{ l }} {{ last }}</h3>
+</div>
